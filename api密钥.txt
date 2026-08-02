@@ -1,0 +1,9 @@
+openalex密钥：kBkZMP7Rnu4tO9nmbhCWql
+serper密钥：33aacf78ed46627903060d7efea21d3692e58687
+serpapi密钥：445c1d963e37fe3877470aafb100ec5d9289a73bd9c11075d1f4d07e1be1ce30
+阿里云百炼密钥：sk-ws-H.EIIIHRX.gw84.MEYCIQCoP6lcCqplvS5ZiKDuGrQ2pATHPBnqA6HT5twUYPNlvAIhAKs7HggpRmFJ1W1AW8K4T5orox2rZCQe1mI4CW5yjcPe
+pubmed密钥：29612071e3c1458cf45379f2a3e8dc600008
+Entrez.email = "1693822427@qq.com"  # 替换为你的邮箱
+Entrez.api_key = os.getenv("NCBI_API_KEY", "29612071e3c1458cf45379f2a3e8dc600008")
+Entrez.tool = "SPAR-Scholar-Agent"
+
