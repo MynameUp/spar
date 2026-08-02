@@ -18,8 +18,7 @@ DEBUG = False
 # 百炼 API Key: https://bailian.console.aliyun.com/
 API_KEY = os.getenv(
     "DASHSCOPE_API_KEY",
-    "sk-ws-H.EIIIHRX.gw84.MEYCIQCoP6lcCqplvS5ZiKDuGrQ2pATHPBnqA6HT5twUYPNlvAIhAKs7HggpRmFJ1W1AW8K4T5orox2rZCQe1mI4CW5yjcPe",
-)
+    "your_dashscope_api_key_here",)
 ENDPOINT = os.getenv(
     "DASHSCOPE_ENDPOINT",
     "https://dashscope.aliyuncs.com/compatible-mode/v1",
@@ -84,10 +83,10 @@ SEARCH_ROUTES: List[str] = ["arxiv", "openalex"]
 # EXTERNAL API KEYS
 # =============================================================================
 # Register at: https://google.serper.dev/search
-GOOGLE_SERPER_KEY = os.getenv("GOOGLE_SERPER_KEY", "33aacf78ed46627903060d7efea21d3692e58687")
+GOOGLE_SERPER_KEY = os.getenv("GOOGLE_SERPER_KEY", "xxx")
 
 # OpenAlex API key for higher rate limits: https://openalex.org/
-OPENALEX_API_KEY = os.getenv("OPENALEX_API_KEY", "kBkZMP7Rnu4tO9nmbhCWql")
+OPENALEX_API_KEY = os.getenv("OPENALEX_API_KEY", "xxx")
 
 # Semantic Scholar API key (currently invalid)
 SEMANTIC_SCHOLAR_API_KEY = os.getenv("S2_API_KEY", "")

@@ -28,7 +28,7 @@ import traceback
 from urllib.error import URLError
 
 Entrez.email = "1693822427@qq.com"
-Entrez.api_key = os.getenv("NCBI_API_KEY", "29612071e3c1458cf45379f2a3e8dc600008")
+Entrez.api_key = os.getenv("NCBI_API_KEY", "")
 Entrez.tool = "SPAR-Scholar-Agent"
 
 # ---- Serper 限流保护(免费版约 1 req/s,并发会返回 400)----
