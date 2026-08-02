@@ -27,7 +27,7 @@ import time
 import traceback
 from urllib.error import URLError
 
-Entrez.email = "1693822427@qq.com"
+Entrez.email = ""
 Entrez.api_key = os.getenv("NCBI_API_KEY", "")
 Entrez.tool = "SPAR-Scholar-Agent"
 
